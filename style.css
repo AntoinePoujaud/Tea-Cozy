@@ -1,0 +1,159 @@
+html {
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+}
+
+body {
+    margin: 0 auto;
+    background-color: black;
+    color: seashell;
+    opacity: 0.9;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    position: fixed;
+    top: 0;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    background-color: black;
+}
+
+header img {
+    display: inline-flex;
+    align-items: flex-start;
+    height: 50px;
+    padding-left: 10px;
+}
+
+header nav {
+    display: inline-flex;
+    flex-direction: row;
+    width: 450px;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: space-around;
+    width: 100%;
+    height: auto;
+}
+
+header nav li {
+    display: flex;
+    text-decoration: underline;
+    padding: 2px 3%;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+                /* OUR MISSION SECTION */
+#our-mission {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+    width: 1200px;
+    height: 700px;
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-bedford-bizarre.jpg");
+    background-size: cover;
+}
+
+#our-mission article{
+    display: inline-flex;
+    width: 100%;
+    height: auto;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+#our-mission article h2{
+    font-size: 1.7rem;
+    flex-shrink: 2;
+    margin: 10px 0;
+}
+
+#our-mission article h4 {
+    margin: 10px 0;
+    font-size: 1rem;
+    text-align: center;
+    padding: 0 15px;
+}
+
+                /* TEA OF THE MONTH SECTION */
+
+#tea-of-the-month {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 60px 0 0 0;
+    width: 1000px;
+}
+
+#tea-of-the-month .title{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+#tea {
+    display: inline-flex;
+    width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+#tea article {
+    display: inline-flex;
+    flex-direction: column;
+    width: 300px;
+    height: auto;
+    margin: 10px 10px;
+}
+
+#tea article div {
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+    
+}
+
+#tea article h4 {
+    margin: 10px 0 0 0;
+    text-align: center;
+}
+
+#fall-berry {
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-berryblitz.jpg");
+}
+
+#spiced-rum{
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-spiced-rum.jpg");
+}
+
+#seasonal-donuts {
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-donut.jpg");
+}
+
+#myrtle-ave {
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-donut.jpg");
+}
+
+#bedford-bizarre {
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-bedford-bizarre.jpg");
+}   
